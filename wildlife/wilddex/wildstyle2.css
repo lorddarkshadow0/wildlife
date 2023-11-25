@@ -1,0 +1,102 @@
+/* Wildstyle for Wilddex*/
+
+header {
+    background-color: #1543a7;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+body {
+    background-color: #faf2e4;
+    font-family: 'Roboto Condensed', sans-serif; /* Loads a custom web font */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    background-color: #f0f0f0;
+    text-align: left;
+    
+}
+
+img {
+    width: 15%;
+    height: auto;
+    margin-right: 10px;
+    padding: 1em;
+}
+
+.copyright {
+    font-size: small;
+    opacity: 75%;
+    text-decoration: underline;
+}
+
+nav a:hover {
+    color: #4340e6;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 2px;
+    background-color: #faf2e4;
+    text-align: center; /* Add this line */
+}
+
+nav li {
+    display: auto;
+    margin-right: 20px;
+    margin-top: 1%;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-bottom: 2px solid #5e6669;
+    margin-top: 30px;
+}
+
+h2 {
+    text-align: center;
+    color: #1543a7;
+    font-size: 1.5em;
+    border: 2px solid white;
+    background-color: white; 
+    padding: 10px; 
+}
+
+.img1 {
+    display: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: medium;
+    padding-bottom: 2em;
+}
+
+.img1 p {
+    margin: 10px;
+}
+
+.mainnav {
+    border:2px solid #1543a7;
+    background-color: #1543a7;
+    color: white;
+    padding: 1em;
+}
